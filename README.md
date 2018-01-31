@@ -1,1 +1,5 @@
-I am glad I worked on this project http://gemssblog.com/
+My projects:
+
+ 		-	http://gemssblog.com/
+ 
+		-	https://jsfiddle.net/Gbemi/edgeczw1/
