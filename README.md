@@ -1,5 +1,5 @@
 My projects:
 
- 		-	http://gemssblog.com/
+ 			http://gemssblog.com/
  
-		-	https://jsfiddle.net/Gbemi/edgeczw1/
+			https://jsfiddle.net/Gbemi/edgeczw1/
