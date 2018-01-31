@@ -1,0 +1,89 @@
+
+.forms {
+
+ 	padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 85px;    border: 1px solid #555555;	
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	}
+
+.result {
+
+	font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 86%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.button2 {background-color: #008CBA;} 
+.button3 {background-color: #f44336;} 
+.button4 {background-color: #e7e7e7; color: black;}
+.button5 {background-color: #555555;}
+.button6 {background-color: #ee82ee;}
+.button7 {background-color: #6a5acd;}
+.button8 {background-color: #ffa500;} 
+.button9 {background-color: #f44336;}  
+.button10 {background-color: #ee82ee; color: black;} 
+.button11 {background-color: #6a5acd;} 
+.button12 {background-color: #803ac0;}
+.button13 {background-color: #6a5acd;}
+.button14 {background-color: #6a7acd; padding: 15px 64px; width: 42%;}
+
+.calculate{
+	width: 80%;
+}
+
+
+
+@media (max-width:800px) {
+  .button {
+    width:20%;
+     padding: 10px 10px;
+  }
+}
+
+@media (max-width:800px) {
+ .calculate{
+	width: 80%;
+}
+}
+
+@media (max-width:800px) {
+ .button14{
+	width: 42%;
+}
+}
+
+@media (max-width:800px) {
+ .result {
+
+	font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 86%;
+    margin-left: auto;
+	margin-right: auto;
+}
+}

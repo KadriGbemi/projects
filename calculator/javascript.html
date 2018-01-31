@@ -1,0 +1,63 @@
+<Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="mystyles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator</title>
+</head>
+<body style="background-image: url('images/calculator.jpg'); background-repeat: no-repeat;">
+
+	<h2 style="text-align: center; margin-top: 50px; color: #006400;"> My JavaScript Calculator </h2>
+	<form name="form" class="forms" onmouseover="myform(this)">
+
+	<div class="calculate">
+		<input name="answer" class="result" onmouseover="myinput(this)">
+	<br/>
+		<input type="button" class="button button4" name="C" value="C" onClick="c()"> 
+
+		<input type="button" class="button button14" name="CE" value="CE" onClick="ce()">
+
+		<input type="button" onmousedown="mDown(this)" onmouseup="mUp(this)" class="button button4" name="plus" value="+" onClick="doplus()">
+	<br/>	
+
+		<input type="button" class="button" name="1" value="1" onClick="num(1)">
+
+		<input type="button" class="button button2" name="2" value="2" onClick="num(2)">
+
+		<input type="button" class="button button3" name="3" value="3" onClick="num(3)">
+
+		<input type="button" onmousedown="mDn(this)" onmouseup="mup(this)" class="button button4" name="." value="." onClick="dodot()">
+	<br/>
+		<input type="button" class="button button5" name="4" value="4" onClick="num(4)">
+
+		<input type="button" class="button button6" name="5" value="5" onClick="num(5)">
+
+		<input type="button" class="button button7" name="6" value="6" onClick="num(6)">
+
+		<input type="button" onmousedown="mDwn(this)" onmouseup="mU(this)" class="button button4" name="mult" value="*" onClick="domul()">
+	<br/>
+		<input type="button" class="button button8" name="7" value="7" onClick="num(7)">
+
+		<input type="button" class="button button9" name="8" value="8" onClick="num(8)">
+
+		<input type="button" class="button button10" name="9" value="9" onClick="num(9)">
+
+		<input type="button" onmousedown="m(this)" onmouseup="mu(this)"  class="button button4" name="div" value="/" onClick="dodiv()">
+	<br/>
+
+		<input type="button" class="button button11" name="0" value="0" onClick="num(0)">
+
+		<input type="button" class="button button12" name="sub" value="-" onClick="dosub()">
+
+		<input type="button" class="button button13" name="modu" value="%" onClick="domodu()">
+
+		<input type="button" onmousedown="mDown(this)" onmouseup="mUp(this)" class="button button4" name="calc" value="=" onClick="evalu()">
+	</div>
+	</form>
+
+<script src="myScript.js">
+
+</script>
+</body>
+</html>﻿
