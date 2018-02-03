@@ -33,10 +33,20 @@
 	document.form.answer.value += "%";
 	}
 
-	function evalu()
+	function evalu(evali)
 	{		
-    var evali = eval(document.form.answer.value)
-    document.form.answer.value = evali;
+	var evali = document.form.answer.value;
+       if(isNaN(evali) || evali < 1 && evali > 10 || evali === parseInt("+"))
+       {
+       	var evali = eval(document.form.answer.value)
+       	document.form.answer.value = evali;
+       	return true;
+       }
+      else
+       {
+       alert("Enter a number");
+       	return false;
+       }
     }	
 
     function mDown(obj) {
