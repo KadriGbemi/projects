@@ -1,6 +1,4 @@
-Live projects:
-
-Web application for Gemssblog now Gemssmedia: https://www.gemssmedia.com/
+Old live projects:
 
 Javascript Calculator on JSFiddle: https://jsfiddle.net/Gbemi/edgeczw1/
 
